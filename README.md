@@ -1,3 +1,4 @@
+docker run --name cl-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
 # Doom Builder 64
 Doom Builder 64 is a custom fork of Doom Builder 2 by CodeImp made to support mapping for DOOM 64 on N64 and on PC (EX/Steam/GOG), originally developed by Samuel "Kaiser" Villarreal and now maintained by the_kovic. 
 
